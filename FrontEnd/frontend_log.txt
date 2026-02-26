@@ -1,0 +1,30 @@
+Frontend Production Build Log
+Project: Scalable REST API with Role-Based Access
+Date: 26 Feb 2026
+Status: Build Successful (No Errors)
+
+> frontend@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  91.71 kB  build\static\js\main.16b87942.js
+  1.76 kB   build\static\js\453.20359781.chunk.js
+  20 B      build\static\css\main.31d6cfe0.css
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
