@@ -51,26 +51,28 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure
+```bash
 scalable-rest-api-auth/
 │
-├── backend/
-│   ├── manage.py
-│   ├── core/            # Django project settings
+├── backend/                     # Backend application
+│   ├── manage.py                # Django management script
+│   ├── core/                    # Django project configuration
 │   │   ├── settings.py
 │   │   ├── urls.py
 │   │   ├── wsgi.py
 │   │   └── asgi.py
 │   │
-│   ├── users/            # Custom user model & authentication
-│   └── tasks/            # Task management module
+│   ├── users/                   # Custom user model & authentication
+│   └── tasks/                   # Task management module
 │
-├── frontend/
+├── frontend/                    # React frontend
 │   └── src/
 │       ├── pages/
 │       ├── components/
 │       └── api.js
 │
 └── README.md
+```
 
 ## 🧑‍💻 API Endpoints
 
