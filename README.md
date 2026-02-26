@@ -51,21 +51,26 @@ This project demonstrates:
 ---
 
 ## 📂 Project Structure
-backend/
-backend/
-│── core/            # Global configuration
-│── users/           # Custom user model & authentication
-│── tasks/           # Task management module
-│── manage.py
-
-frontend/
-│── src/
-│   ├── pages/
-│   ├── components/
-│   ├── api.js
-
-
----
+scalable-rest-api-auth/
+│
+├── backend/
+│   ├── manage.py
+│   ├── core/            # Django project settings
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   └── asgi.py
+│   │
+│   ├── users/            # Custom user model & authentication
+│   └── tasks/            # Task management module
+│
+├── frontend/
+│   └── src/
+│       ├── pages/
+│       ├── components/
+│       └── api.js
+│
+└── README.md
 
 ## 🧑‍💻 API Endpoints
 
